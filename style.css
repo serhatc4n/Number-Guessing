@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  background-color: #1d3557;
+  min-height: 95vh;
+}
+
+.github {
+  text-decoration: underline;
+  color:#000000;
+  font-size: 23px;
+  margin-top: 15px;
+}
+
+.github:hover {
+  text-decoration: none;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 9px;
+  background-color: #fca311;
+  border: 5px solid #e5e5e5;
+  height: auto;
+  width: 750px;
+  margin: auto;
+  text-align: center;
+  padding-bottom: 25px;
+  box-shadow: 0 0 10px 2px #fca311,0 0 10px 2px #e5e5e5;
+}
+
+p {
+  color:#000;
+  font-size: 22px;
+  margin: 0;
+
+}
+
+#userInput {
+  padding: 7px;
+  border: 1px solid #000;
+  border-radius: 10px;
+  background-color: #e5e5e5;
+  margin-top: 20px;
+  width: 300px;
+  transition: all .2s;
+}
+
+#userInput:focus {
+  border: 1px solid #000;
+  outline: none;
+  box-shadow: 0 0 5px 1px #000000;
+}
+
+#btn {
+  padding: 7px 20px;
+  border-radius: 7px;
+  border: 1px solid rgb(107, 107, 107);
+  background-color: #f4f3ee;
+  cursor: pointer;
+  margin-top: 7px;
+}
+
+#btn:active {
+  transform: translate(0,0.25rem);
+}
+
+#btn:hover {
+  background-color: #fca311;
+  color:white;
+  transition: all .2s;
+}
+
+#try {
+  font-weight: 600;
+}
+
+@media only screen and (max-width: 650px) {
+  #container {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
