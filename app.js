@@ -3,7 +3,6 @@ let output = document.getElementById('outputtext');
 let trying = document.getElementById('try');
 
 let randomNr = Math.floor(Math.random() * 100);
-console.log(randomNr)
 
 let tryingCount = 0;
 trying.innerHTML = tryingCount;
